@@ -1,0 +1,33 @@
+body {
+    box-sizing: border-box;
+    background: url("https://cdn.pixabay.com/photo/2017/06/28/22/42/downtown-new-york-2452459__340.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.container {
+    margin: 60px auto;
+    padding: 30px;
+    width: 400px;
+    height: 160px;
+    background-color: rgb(0,0,0);
+    color: silver;
+}
+.business-card img {
+    float: left;
+}
+.username, .email, .download-cv {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.username span {
+    border-bottom: 2px solid red;
+    padding-bottom: 4px;
+}
+.email span {
+    font-size: 15px;
+}
+.download-cv a {
+    color: red;
+    font-size: 14px;
+    text-decoration: none;
+}
